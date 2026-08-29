@@ -1,5 +1,5 @@
 #Variables
-'''A variable is simply a name that refer to a value.
+'''A variable is simply a name that refers to a value.
 Python variables are dynamically typed.'''
 #Examples
 name = "Chetan"
