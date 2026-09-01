@@ -95,3 +95,77 @@ for number in range(1, 11):
     if number == 5:
         continue
     print(number)
+
+
+
+
+
+# =========================
+#    practicing loops
+# =========================
+
+
+# =========================
+#     Challenge 1
+# =========================
+print("\n" + "=" * 40)
+print("          Challenge 1")
+print("=" * 40)
+#print (1 to 10 numbers)
+
+print("\nUsing For loop: ")#solving using for loop
+
+for i in range (1 , 11):
+    print(i)
+
+print("\nUsing While loop: ")#solving using while loop
+
+number = 1
+while number <= 10:
+    print(number)
+    number += 1
+
+# =========================
+#     Challenge 2
+# =========================
+print("\n" + "=" * 40)
+print("          Challenge 2")
+print("=" * 40)
+# print only the odd numbers from 1 to 30:
+
+print("\nUsing For loop: ")#solving using for loop
+
+for i in range(1 , 31):
+    if i % 2 != 0:
+        print(i)
+
+print("\nUsing While loop: ")#solving using while loop
+
+i = 1
+while i <= 30:
+    
+    print(i)
+    i+=2
+
+# =========================
+#     Challenge 3
+# =========================
+print("\n" + "=" * 40)
+print("          Challenge 3")
+print("=" * 40)
+#Ask the user foe a number and print its multiplications table
+
+print("\nUsing For loop: ")#solving using for loop
+
+number = int(input("\nChoice any table: "))
+
+for i in range ( 1 , 11 ):
+    print(f"{number} x {i} = {number*i}")
+
+print("\nUsing While loop: ")#solving using while loop
+
+number = int(input("\nChoice any table: "))
+i = 1
+while i <= 10:
+    print(f"{number} x {i} = {number*i}")
+    i+=1
